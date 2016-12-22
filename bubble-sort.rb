@@ -42,7 +42,6 @@ end
 print(bubble_sort([4,3,78,2,0,2]))
 puts " "
 
-# left_right = lambda{|left, right| left.length - right.length}
 print(bubble_sort_by(["hi","hello","hey"]) do |left, right|
     left.length - right.length
 end)
